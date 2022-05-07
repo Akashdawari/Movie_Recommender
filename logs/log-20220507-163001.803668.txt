@@ -1,0 +1,13 @@
+2022-05-07/16:30:01		 Recommendation Starts!!! 
+2022-05-07/16:30:01		 Created a object of  MoviesRecommender
+2022-05-07/16:30:03		 Successfull executed extract_data method 
+2022-05-07/16:30:03		 Successful executed movie_in_database method 
+2022-05-07/16:30:04		 Successful executed convert_json method 
+2022-05-07/16:30:05		 Successful executed convert_json method 
+2022-05-07/16:30:17		 Successful executed convert_json1 method 
+2022-05-07/16:30:27		 Successful executed fetch_director method 
+2022-05-07/16:30:47		 Successful executed stem method 
+2022-05-07/16:30:47		 Successful executed preprocessing_data method 
+2022-05-07/16:30:51		 Successful executed similarity_vectors method 
+2022-05-07/16:30:55		 Successful executed movies_recommendations method 
+2022-05-07/16:30:55		 Got the list of movuies and their posters 
