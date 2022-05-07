@@ -1,4 +1,3 @@
-nltk
 pandas
 requests
 flask_cors
