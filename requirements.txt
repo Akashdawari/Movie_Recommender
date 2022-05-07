@@ -4,6 +4,7 @@ click
 colorama
 Flask
 Flask-Cors
+gunicorn
 idna
 importlib-metadata
 itsdangerous
