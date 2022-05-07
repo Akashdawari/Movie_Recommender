@@ -44,5 +44,4 @@ def index():
         raise e
 
 if __name__ == "__main__":
-    #app.run(host='127.0.0.1', port=8001, debug=True)
-	app.run(debug=True) # running the app
+    app.run() # running the app

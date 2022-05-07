@@ -1,0 +1,7 @@
+2022-05-07/16:13:46		 Recommendation Starts!!! 
+2022-05-07/16:13:47		 Created a object of  MoviesRecommender
+2022-05-07/16:13:50		 Successfull executed extract_data method 
+2022-05-07/16:13:50		 Successful executed movie_in_database method 
+2022-05-07/16:13:50		 Successful executed movies_recommendations method 
+2022-05-07/16:13:50		 Got the list of movuies and their posters 
+2022-05-07/16:13:50		 No Recommendation 
