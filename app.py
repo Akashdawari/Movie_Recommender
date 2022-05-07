@@ -18,10 +18,8 @@ def homePage():
 @app.route('/recommendation',methods=['POST','GET']) # route to show the recommendation in a web UI
 @cross_origin()
 def index():
-
     try:
         if request.method == 'POST':
-
             log = App_Logger()
             obj = datetime.now()
             date = ''.join(map(str, str(obj.date()).split('-')))
