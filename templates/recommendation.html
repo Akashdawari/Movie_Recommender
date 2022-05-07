@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/recomm.css') }}">
+    <title>Document</title>
+</head>
+<body>
+<div class="movie" style="color: #E8E8E8;">
+      <center><h1>RECOMMENDED MOVIES FOR YOU</h1></center>
+    </div>
+<div class="movie-content">
+      {% for i in movies %}
+        <div class="card" style="width: 15rem;" title="{{i.0}}" >
+          <div class="imghvr">
+            <img class="card-img-top" height="360" width="240" src="{{i.1}}">
+           </div>
+          <div class="card-body">
+            <center><h2 class="card-title">{{i.0|capitalize}}</h2></center>
+          </div>
+        </div>
+    {% endfor %}
+    </div>
+
+</body>
+</html>

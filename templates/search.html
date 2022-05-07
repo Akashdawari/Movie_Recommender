@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Autocomplete Search Box | CodingNepal</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/search.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+          <form action="/recommendation" method="POST">
+        <input type="text" placeholder="Type to search.." id="movie_name" name="movie_name">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div>
+        <center><button type="submit" value="Predict">Search</button></center>
+      </div>
+                </form>
+
+      </div>
+    </div>
+
+     <script src="{{ url_for('static', filename='js/suggestions.js') }}"></script>
+     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+  </body>
+</html>
