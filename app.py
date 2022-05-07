@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request,jsonify
-from flask_cors import CORS,cross_origin
+from flask import Flask, render_template, request
+from flask_cors import cross_origin
 from movies_recommender import MoviesRecommender
 from datetime import datetime
 from logger import App_Logger
