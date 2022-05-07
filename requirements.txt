@@ -1,4 +1,3 @@
 nltk
-ast
 pandas
 sklearn
