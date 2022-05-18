@@ -25,6 +25,11 @@ Recommendation systems are widely used to recommend movies, items, restaurants, 
 4. nltk
 5. flask
 
+## Deployed link in heroku
+
+>https://recommendflims.herokuapp.com/
+
+
 ## Screen Shots
 
    1. ![image](https://user-images.githubusercontent.com/51261048/168934354-9882423d-8bd0-4f60-a8bd-87e5508715f0.png)
